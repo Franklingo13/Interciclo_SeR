@@ -1,0 +1,1 @@
+segundo texto de 64 bytes, para concatenar con otro texto de 64
