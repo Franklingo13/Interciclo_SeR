@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 unsigned char x[200] = {
-/* The actual contents of this array are up to you */
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 };
 
 unsigned char y[200] = {
-/* Contents are up to you, but should be the same as the x array */
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 };
 
 int main() {
@@ -15,7 +15,7 @@ int main() {
     if(x[i] != y[i]){ break; }
   }
 
-  if(i == 200){ printf("%s", "benign code"); } /* x = y */
+  if(i == 200){ printf("%s", "Codigo benigno"); } /* x = y */
   else{ printf("%s", "WARNING: su PC fue infectata por un super malware jij"); } /* x != y */
 
   printf("\n");
